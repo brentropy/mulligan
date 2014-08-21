@@ -1,6 +1,6 @@
 {
   "name": "mulligan",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Retry promises before rejecting",
   "main": "index.js",
   "scripts": {
