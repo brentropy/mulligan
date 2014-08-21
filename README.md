@@ -1,5 +1,10 @@
 # Mulligan
 
+[![npm](http://img.shields.io/npm/v/mulligan.svg?style=flat)](https://www.npmjs.org/package/mulligan)
+[![Travis](http://img.shields.io/travis/brentburgoyne/mulligan.svg?style=flat)](https://travis-ci.org/brentburgoyne/mulligan)
+[![Code Climate](http://img.shields.io/codeclimate/github/brentburgoyne/mulligan.svg?style=flat)](https://codeclimate.com/github/brentburgoyne/mulligan)
+[![Code Climate Coverage](http://img.shields.io/codeclimate/coverage/github/brentburgoyne/mulligan.svg?style=flat)](https://codeclimate.com/github/brentburgoyne/mulligan)
+
 A simple JavaScript helper for adding a retry interval for rejected promises.
 
 ## Installation

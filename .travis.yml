@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+- '0.11'
+- '0.10'
+env:
+- secure: "gEbLq8+trDIJ7aOCIsjoPE+vXLfcjMHgcgLakZ7zjkLg8EeNlwFvSIizyj5A4neRNPdLshgaRLTrgPfqQBWq/6YSvuCnh3YcnaVWftU4ZdMcUi22KwK015MthDlG7u61pCnSMDT5hGPD3NPJl9I+LYVH+SFLMd8+HpaW9kqYt2c="
+before_script: npm install -g istanbul codeclimate-test-reporter
+script: istanbul cover node_modules/.bin/_mocha -- -u exports -R spec
+after_success: codeclimate < coverage/lcov.info
