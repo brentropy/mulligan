@@ -31,7 +31,7 @@ var promise = new Promise(mulligan(
 
 ## Conditional Retries
 
-Mulligan takes function an optional fourth argument to support conditional
-retries. It receives the `error` from the last rejection. If the function
-returns `true` it will move on the the next attempt. If the function returns
-`false` the promise will be rejected immediately.
+Mulligan takes a function as an optional fourth argument to support conditional
+retries. It receives the `error` from the last rejection as the first argument.
+If the function returns `true` it will move on the the next attempt. If the 
+function returns `false` the promise will be rejected immediately.
