@@ -1,0 +1,16 @@
+{
+  "name": "mulligan",
+  "version": "0.0.0",
+  "description": "Retry promises before rejecting",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec test.js"
+  },
+  "author": "Brent Burgoyne",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "should": "^4.0.4",
+    "sinon": "^1.10.3"
+  }
+}
