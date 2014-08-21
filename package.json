@@ -14,9 +14,9 @@
     "sinon": "^1.10.3"
   },
   "dependencies": {
+    "mocha": "^1.21.4",
     "should": "^4.0.4",
-    "sinon": "^1.10.3",
-    "es6-promise": "^1.0.0"
+    "sinon": "^1.10.3"
   },
   "repository": {
     "type": "git",
